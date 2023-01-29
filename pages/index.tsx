@@ -16,7 +16,7 @@ const Home = () => {
           <Link href={"/top-100-castles"} className={styles.top_castle}>
             日本100名城
           </Link>
-          <Link href={"/top-100-castles"} className={styles.top_castle}>
+          <Link href={"/top-100-castles-2nd"} className={styles.top_castle}>
             続日本100名城
           </Link>
         </div>

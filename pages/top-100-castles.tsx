@@ -13,7 +13,7 @@ const top100castles: Top100castles = [
     region: "北海道・東北",
     prefs: {
       北海道: [
-        { name: "根室チャシ跡群", link: "" },
+        { name: "根室半島チャシ跡群", link: "" },
         { name: "五稜郭", link: "" },
         { name: "松前城", link: "" },
       ],
@@ -41,17 +41,17 @@ const top100castles: Top100castles = [
       茨城県: [{ name: "水戸城", link: "" }],
       栃木県: [{ name: "足利氏館", link: "" }],
       群馬県: [
-        { name: "箕輪城　", link: "" },
-        { name: "金山城　", link: "" },
+        { name: "箕輪城", link: "" },
+        { name: "金山城", link: "" },
       ],
       埼玉県: [
-        { name: "川越城　", link: "" },
-        { name: "鉢形城　", link: "" },
+        { name: "鉢形城", link: "" },
+        { name: "川越城", link: "" },
       ],
       千葉県: [{ name: "佐倉城", link: "" }],
       東京都: [
-        { name: "江戸城　", link: "" },
-        { name: "八王子城　", link: "" },
+        { name: "江戸城", link: "" },
+        { name: "八王子城", link: "" },
       ],
       神奈川: [{ name: "小田原城", link: "" }],
       山梨県: [
@@ -59,11 +59,11 @@ const top100castles: Top100castles = [
         { name: "甲府城", link: "" },
       ],
       長野県: [
-        { name: "松代城　", link: "" },
-        { name: "上田城　", link: "" },
-        { name: "小諸城　", link: "" },
-        { name: "松本城　", link: "" },
-        { name: "高遠城　", link: "" },
+        { name: "松代城", link: "" },
+        { name: "上田城", link: "" },
+        { name: "小諸城", link: "" },
+        { name: "松本城", link: "" },
+        { name: "高遠城", link: "" },
       ],
       新潟県: [
         { name: "新発田城", link: "" },
