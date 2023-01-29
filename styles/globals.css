@@ -1,7 +1,14 @@
 :root {
+  font-size: 15px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+  --color-bg: #ffffff;
+  --color-hover: #e3e3e3;
+  --color-primary: #000000;
+  --color-hover-primary: #555555;
+  --color-on-primary: #ffffff;
 }
 
 * {
@@ -13,7 +20,9 @@
 html,
 body {
   max-width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
+  position: relative;
 }
 
 a {
