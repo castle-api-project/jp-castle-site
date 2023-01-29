@@ -192,12 +192,8 @@ const top100castles: Top100castles = [
         { name: "大分府内城", link: "" },
         { name: "岡城", link: "" },
       ],
-      宮崎県: [
-        { name: "飫肥城", link: "" },
-      ],
-      鹿児島県: [
-        { name: "鹿児島城", link: "" },
-      ],
+      宮崎県: [{ name: "飫肥城", link: "" }],
+      鹿児島県: [{ name: "鹿児島城", link: "" }],
       沖縄県: [
         { name: "今帰仁城", link: "" },
         { name: "中城城", link: "" },
@@ -209,12 +205,13 @@ const top100castles: Top100castles = [
 
 const Top100Castle = () => {
   return (
-    <main className={styles.top_100_castles}>
+    <div className={styles.top_100_castles}>
       <p className={styles.pan_list}>
         <a href={"/"}>TOP</a>
         {" > "}
         <a href={"/top-100-castles"}>日本100名城</a>
       </p>
+
       <h1>日本100名城</h1>
 
       <div className={styles.container}>
@@ -244,7 +241,7 @@ const Top100Castle = () => {
           );
         })}
       </div>
-    </main>
+    </div>
   );
 };
 

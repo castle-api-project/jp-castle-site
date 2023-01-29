@@ -1,0 +1,18 @@
+.pref_container {
+  padding: 50px 10px;
+  text-align: center;
+  position: relative;
+
+  @media (min-width: 600px) {
+    padding: 50px 40px;
+  }
+
+  .pan_list {
+    position: absolute;
+    top: 10px;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}

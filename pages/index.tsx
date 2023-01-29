@@ -11,7 +11,7 @@ const Home = () => {
         <title>城郭データストア</title>
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <div className={styles.top_castle_container}>
           <Link href={"/top-100-castles"} className={styles.top_castle}>
             日本100名城
@@ -24,84 +24,98 @@ const Home = () => {
         <div className={styles.prefs_container}>
           <div className={styles.region_panel}>
             <p className={styles.region_name}>北海道・東北</p>
-            <p className={styles.pref_name}>北海道</p>
-            <p className={styles.pref_name}>青森県</p>
-            <p className={styles.pref_name}>岩手県</p>
-            <p className={styles.pref_name}>宮城県</p>
-            <p className={styles.pref_name}>秋田県</p>
-            <p className={styles.pref_name}>山形県</p>
-            <p className={styles.pref_name}>福島県</p>
+            <Link href={"/prefs/北海道"} className={styles.pref_name}>
+              北海道
+            </Link>
+            <Link href={"/prefs/青森県"} className={styles.pref_name}>
+              青森県
+            </Link>
+            <Link href={"/prefs/岩手県"} className={styles.pref_name}>
+              岩手県
+            </Link>
+            <Link href={"/prefs/宮城県"} className={styles.pref_name}>
+              宮城県
+            </Link>
+            <Link href={"/prefs/秋田県"} className={styles.pref_name}>
+              秋田県
+            </Link>
+            <Link href={"/prefs/山形県"} className={styles.pref_name}>
+              山形県
+            </Link>
+            <Link href={"/prefs/福島県"} className={styles.pref_name}>
+              福島県
+            </Link>
           </div>
 
           <div className={styles.region_panel}>
             <p className={styles.region_name}>関東</p>
-            <p className={styles.pref_name}>茨城県</p>
-            <p className={styles.pref_name}>栃木県</p>
-            <p className={styles.pref_name}>群馬県</p>
-            <p className={styles.pref_name}>埼玉県</p>
-            <p className={styles.pref_name}>千葉県</p>
-            <p className={styles.pref_name}>東京県</p>
-            <p className={styles.pref_name}>神奈川県</p>
+            <Link href={"/prefs/茨城県"} className={styles.pref_name}>茨城県</Link>
+            <Link href={"/prefs/栃木県"} className={styles.pref_name}>栃木県</Link>
+            <Link href={"/prefs/群馬県"} className={styles.pref_name}>群馬県</Link>
+            <Link href={"/prefs/埼玉県"} className={styles.pref_name}>埼玉県</Link>
+            <Link href={"/prefs/千葉県"} className={styles.pref_name}>千葉県</Link>
+            <Link href={"/prefs/東京県"} className={styles.pref_name}>東京県</Link>
+            <Link href={"/prefs/神奈川県"} className={styles.pref_name}>神奈川県</Link>
           </div>
 
           <div className={styles.region_panel}>
             <p className={styles.region_name}>甲信越</p>
-            <p className={styles.pref_name}>新潟県</p>
-            <p className={styles.pref_name}>山梨県</p>
-            <p className={styles.pref_name}>長野県</p>
+            <Link href={"/prefs/新潟県"} className={styles.pref_name}>新潟県</Link>
+            <Link href={"/prefs/山梨県"} className={styles.pref_name}>山梨県</Link>
+            <Link href={"/prefs/長野県"} className={styles.pref_name}>長野県</Link>
           </div>
 
           <div className={styles.region_panel}>
             <p className={styles.region_name}>北陸</p>
-            <p className={styles.pref_name}>富山県</p>
-            <p className={styles.pref_name}>石川県</p>
-            <p className={styles.pref_name}>福井県</p>
+            <Link href={"/prefs/富山県"} className={styles.pref_name}>富山県</Link>
+            <Link href={"/prefs/石川県"} className={styles.pref_name}>石川県</Link>
+            <Link href={"/prefs/福井県"} className={styles.pref_name}>福井県</Link>
           </div>
 
           <div className={styles.region_panel}>
             <p className={styles.region_name}>東海</p>
-            <p className={styles.pref_name}>静岡県</p>
-            <p className={styles.pref_name}>岐阜県</p>
-            <p className={styles.pref_name}>愛知県</p>
-            <p className={styles.pref_name}>三重県</p>
+            <Link href={"/prefs/静岡県"} className={styles.pref_name}>静岡県</Link>
+            <Link href={"/prefs/岐阜県"} className={styles.pref_name}>岐阜県</Link>
+            <Link href={"/prefs/愛知県"} className={styles.pref_name}>愛知県</Link>
+            <Link href={"/prefs/三重県"} className={styles.pref_name}>三重県</Link>
           </div>
 
           <div className={styles.region_panel}>
             <p className={styles.region_name}>近畿</p>
-            <p className={styles.pref_name}>滋賀県</p>
-            <p className={styles.pref_name}>京都府</p>
-            <p className={styles.pref_name}>大阪府</p>
-            <p className={styles.pref_name}>兵庫県</p>
-            <p className={styles.pref_name}>奈良県</p>
-            <p className={styles.pref_name}>和歌山県</p>
+            <Link href={"/prefs/滋賀県"} className={styles.pref_name}>滋賀県</Link>
+            <Link href={"/prefs/京都府"} className={styles.pref_name}>京都府</Link>
+            <Link href={"/prefs/大阪府"} className={styles.pref_name}>大阪府</Link>
+            <Link href={"/prefs/兵庫県"} className={styles.pref_name}>兵庫県</Link>
+            <Link href={"/prefs/奈良県"} className={styles.pref_name}>奈良県</Link>
+            <Link href={"/prefs/和歌山県"} className={styles.pref_name}>和歌山県</Link>
           </div>
 
           <div className={styles.region_panel}>
             <p className={styles.region_name}>中国</p>
-            <p className={styles.pref_name}>鳥取県</p>
-            <p className={styles.pref_name}>島根県</p>
-            <p className={styles.pref_name}>岡山県</p>
-            <p className={styles.pref_name}>広島県</p>
-            <p className={styles.pref_name}>山口県</p>
+            <Link href={"/prefs/鳥取県"} className={styles.pref_name}>鳥取県</Link>
+            <Link href={"/prefs/島根県"} className={styles.pref_name}>島根県</Link>
+            <Link href={"/prefs/岡山県"} className={styles.pref_name}>岡山県</Link>
+            <Link href={"/prefs/広島県"} className={styles.pref_name}>広島県</Link>
+            <Link href={"/prefs/山口県"} className={styles.pref_name}>山口県</Link>
           </div>
 
           <div className={styles.region_panel}>
             <p className={styles.region_name}>四国</p>
-            <p className={styles.pref_name}>徳島県</p>
-            <p className={styles.pref_name}>香川県</p>
-            <p className={styles.pref_name}>愛媛県</p>
-            <p className={styles.pref_name}>高知県</p>
+            <Link href={"/prefs/徳島県"} className={styles.pref_name}>徳島県</Link>
+            <Link href={"/prefs/香川県"} className={styles.pref_name}>香川県</Link>
+            <Link href={"/prefs/愛媛県"} className={styles.pref_name}>愛媛県</Link>
+            <Link href={"/prefs/高知県"} className={styles.pref_name}>高知県</Link>
           </div>
 
           <div className={styles.region_panel}>
             <p className={styles.region_name}>九州</p>
-            <p className={styles.pref_name}>福岡県</p>
-            <p className={styles.pref_name}>佐賀県</p>
-            <p className={styles.pref_name}>長崎県</p>
-            <p className={styles.pref_name}>熊本県</p>
-            <p className={styles.pref_name}>大分県</p>
-            <p className={styles.pref_name}>鹿児島県</p>
-            <p className={styles.pref_name}>沖縄県</p>
+            <Link href={"/prefs/福岡県"} className={styles.pref_name}>福岡県</Link>
+            <Link href={"/prefs/佐賀県"} className={styles.pref_name}>佐賀県</Link>
+            <Link href={"/prefs/長崎県"} className={styles.pref_name}>長崎県</Link>
+            <Link href={"/prefs/熊本県"} className={styles.pref_name}>熊本県</Link>
+            <Link href={"/prefs/大分県"} className={styles.pref_name}>大分県</Link>
+            <Link href={"/prefs/鹿児島県"} className={styles.pref_name}>鹿児島県</Link>
+            <Link href={"/prefs/沖縄県"} className={styles.pref_name}>沖縄県</Link>
           </div>
         </div>
 
@@ -141,7 +155,7 @@ const Home = () => {
             をご覧ください。
           </p>
         </div>
-      </main>
+      </div>
     </>
   );
 };

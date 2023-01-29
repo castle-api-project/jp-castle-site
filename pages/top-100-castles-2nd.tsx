@@ -215,12 +215,13 @@ const top100castles: Top100castles = [
 
 const Top100Castle = () => {
   return (
-    <main className={styles.top_100_castles}>
+    <div className={styles.top_100_castles}>
       <p className={styles.pan_list}>
         <a href={"/"}>TOP</a>
         {" > "}
         <a href={"/top-100-castles"}>続日本100名城</a>
       </p>
+
       <h1>続日本100名城</h1>
 
       <div className={styles.container}>
@@ -250,7 +251,7 @@ const Top100Castle = () => {
           );
         })}
       </div>
-    </main>
+    </div>
   );
 };
 

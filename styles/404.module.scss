@@ -1,0 +1,23 @@
+.not_found {
+  margin-top: 20vh;
+  text-align: center;
+
+  .to_top {
+    padding: 5px 20px;
+    margin-top: 100px;
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    color: var(--color-primary);
+    background-color: var(--color-bg);
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--color-on-primary);
+      background-color: var(--color-primary);
+    }
+  }
+}
