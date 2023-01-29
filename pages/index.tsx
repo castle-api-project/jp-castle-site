@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "@/styles/Home.module.scss";
 import Layout from "@/component/layout";
 import { ReactElement } from "react";
@@ -12,8 +13,12 @@ const Home = () => {
 
       <main className={styles.main}>
         <div className={styles.top_castle_container}>
-          <div className={styles.top_castle}>日本百名城</div>
-          <div className={styles.top_castle}>続日本百名城</div>
+          <Link href={"/top-100-castles"} className={styles.top_castle}>
+            日本100名城
+          </Link>
+          <Link href={"/top-100-castles"} className={styles.top_castle}>
+            続日本100名城
+          </Link>
         </div>
 
         <div className={styles.prefs_container}>
